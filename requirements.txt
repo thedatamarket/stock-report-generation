@@ -1,0 +1,5 @@
+pandas
+os
+wget
+zipfile
+datetime
