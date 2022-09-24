@@ -4,6 +4,7 @@ import numpy as np
 import wget
 import zipfile
 from datetime import datetime, date
+import time
 
 
 URL = 'https://www1.nseindia.com/content/equities/EQUITY_L.csv'
@@ -71,6 +72,7 @@ filename = str(d4) + '.csv'
 df2.to_csv(filename)
 print('Process completed... file generated ', filename)
 
+time.delay(10000)
 #add market cap at column
 #add current price column
 #52weeks high and low col
